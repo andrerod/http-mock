@@ -1,4 +1,4 @@
 http-mock
 =========
 
-Http mock server
+Http mock server is a forward proxy to test http requests.

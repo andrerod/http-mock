@@ -1,0 +1,31 @@
+{
+  "name": "http-mock",
+  "author": "Andre Rodrigues",
+  "contributors": [ "Dejardin, Louis <loudej@microsoft.com>", "Rodrigues, Andre <andrerod@microsoft.com>" ],
+  "version": "0.1.0",
+  "description": "HTTP mocking server",
+  "tags" : [ "azure", "sdk" ],
+  "keywords": [ "node", "http", "mock" ],
+  "main": "./lib/mockserver-client.js",
+  "engines": { "node": ">= 0.6.15" },
+  "licenses": [ { "type": "Apache", "url": "http://www.apache.org/licenses/LICENSE-2.0" } ],
+  "dependencies": { 
+    "request": "2.12.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "should": "*"
+  },
+  "homepage": "http://github.com/andrerod/http-mock",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andrerod/http-mock.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/andrerod/http-mock/issues"
+  },
+  "scripts": {
+    "test": "node test/runtests.js testlist.txt"
+  }
+}
