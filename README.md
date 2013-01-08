@@ -54,3 +54,6 @@ suite('mytests', function () {
   // Tests go here
 });
 ```
+
+You can then enable / disable the mock server by using the HTTP_MOCK_ENABLED environment variable and switch between recording and playback modes by using the environment variable HTTP_MOCK_RECORDING.
+You can also use the environemnt variable HTTP_MOCK_SHOW_LOGS to show logging information when running the mock server.
